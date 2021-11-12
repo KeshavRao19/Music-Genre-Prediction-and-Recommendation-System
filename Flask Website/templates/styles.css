@@ -1,0 +1,30 @@
+.btn:hover,
+input[type="submit"]:hover{
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+
+.btn-white{
+    border:solid 2px #fff;
+    background: transparent;
+    color: #fff !important;
+}
+
+.btn-white:hover{
+    border:solid 2px #fff;
+    background: #fff;
+    color: #1f1f1f !important;
+}
+
+label {
+  background-color: indigo;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
